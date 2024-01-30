@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje finanse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bd16a73ff7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <h1>Portfel osobisty <i class="fa-solid fa-wallet"></i></h1>
+        <div class="container">
+
+            <div class="influences">
+                <h2>Wpływy</h2>
+            </div>
+            <div class="expenses">
+                <h2>Wydatki</h2>
+            </div>
+        </div>
+        <div class="cashFlow">
+            <div class="calc">
+                <p class="calcText">Nazwa</p>
+                <input class="item" type="text">
+            </div>
+            <div class="calc">
+                <p class="calcText">Kwota</p>
+                <input class="sum" type="number">
+            </div>
+            <div class="buttonsToSend">
+                <button class="send btnInfluences">Wpływy</button>
+                <button class="send btnExpenses">Wydatki</button>
+            </div>
+        </div>
+        <p class="balanceParagraph">Stan konta: <span class="balance"></span></p>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
